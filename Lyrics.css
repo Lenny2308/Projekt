@@ -1,0 +1,53 @@
+body
+{
+    background-image: url(maxresdefault.jpg);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul.izbornik {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(31, 30, 30);
+
+    }
+
+    ul.izbornik li {
+    float: left;
+    }
+    ul.izbornik li:hover {
+        background-color: rgb(187, 28, 28);
+
+        }
+    ul.izbornik li:active 
+    {
+        background-color: #000000(187, 28, 28);
+    }
+
+    ul.izbornik li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 30px 25px;
+        text-decoration: none;
+        
+    }
+
+
+    h1{
+    text-align: center;
+    color: rgb(187, 28, 28);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    }
+    pre{
+        text-align: center;
+        color: lightgrey;
+        font-size: 23px;
+        font-family: fantasy;
+        margin: 0;
+    }

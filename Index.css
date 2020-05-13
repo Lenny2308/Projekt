@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(maxresdefault.jpg);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    text-align: center;
+    color: lightgrey;
+    font-size: 23px;
+    font-family: fantasy;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h2 {
+    color: rgb(187, 28, 28);
+    font-size: 65px;
+    font-family: fantasy;
+    text-align: center;
+    margin: 0;
+}    
+h3{
+    color:   rgb(187, 28, 28);
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+}    
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+ul.izbornik {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(31, 30, 30);
+
+    }
+
+    ul.izbornik li {
+    float: left;
+    }
+    ul.izbornik li:hover {
+        background-color: rgb(187, 28, 28);
+
+        }
+    ul.izbornik li:active 
+    {
+        background-color: #000000(187, 28, 28);
+    }
+
+    ul.izbornik li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 30px 25px;
+        text-decoration: none;
+        
+    }
+
+
+    td, th {
+        margin: 0px auto;
+        border-bottom: 3px solid black;
+        font-family: fantasy;    
+         
+        
+    }
+    table {
+        text-align: center;
+        border-collapse: collapse;
+        width: 50%;
+        background-color: rgba(255,255,255,0.1);
+
+    }
+    td{
+        color: lightgray;
+        font-size: 20px;  
+    }
+    th{
+        color: white;       
+        font-size: 25px;  
+    }

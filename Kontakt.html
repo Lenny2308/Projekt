@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Kontakt.css">
+    </head>
+    <body>
+        <ul class="izbornik">
+            <li><a href="index.html">POCETNA</a></li>
+            <li><a href="Albumi.html">ALBUMI</a></li>
+            <li><a href="Lyrics.html">LYRICS</a></li>
+            <li><a href="Galerija.html">GALERIJA</a></li>            
+            <li style="float:right"><a href="Kontakt.html">KONTAK</a></li>
+        </ul>
+    </body>
+    <form method="POST">
+        <p>Ime:
+        <input type="text" name="ime" size="50" maxlength="60">
+        </p>
+        <p>Prezime:
+        <input type="password" name="prezime" size="50" maxlength="60">
+        </p>
+        
+
+        
+       
+        <p>	Kome zelis poslati poruku?
+        <select name="sport">
+        <option value="1">Jasenko Houra </option>
+        <option value="2">Tihomir Files </option>
+        <option value="3">Mladen Bodalec </option>
+        <option value="4">Damir Liposek </option>
+        <option value="5">Jurica Leikauff  </option>
+        <option value="6">Marko Karacic  </option>
+        </select>
+        </p>
+        <p>Putem:
+        <input type="radio" name="Maila">Maila
+        <input type="radio" name="Instagrama">Instagrama
+        <input type="radio" name="Facebooka">Facebooka
+        <input type="radio" name="Twitter">Twitter
+        <br>
+        <br>
+        <input type="reset" value="OBRISI" name="gumb1">
+        <input type="submit" value="POSALJI" name="gumb2">
+        </p>
+        <textarea name="text" id="s" cols="60" rows="30"></textarea>
+    </form>
+
+</html>
