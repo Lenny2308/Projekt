@@ -80,6 +80,8 @@ ul.izbornik {
         
     }
     table {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         border-collapse: collapse;
         width: 50%;
